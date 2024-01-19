@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const TodoSchema = new Schema({
-  test: { type: String, require: true },
+  text: { type: String, require: true },
   complete: {
     type: Boolean,
     default: false,
